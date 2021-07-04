@@ -1,0 +1,20 @@
+{
+  "name": "restriction-app",
+  "version": "1.0.0",
+  "description": "this helps u to focus on your work",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon  server.js",
+    "start": "node  server.js"
+  },
+  "author": "abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "mongoose": "^5.13.0",
+    "nodemon": "^2.0.9"
+  }
+}
